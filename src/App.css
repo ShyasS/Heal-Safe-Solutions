@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.TopHeader{
+  background-color: black;
+  color:white;
+  font-size:12px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TopFont{
+  margin-top:-25px;
+  font-size:15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Main2ndHeader{
+  position:sticky;
+  top:0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#NavCall{
+   border-radius:50%;
+  background-color:red;
+  padding:15px 15px
+  
 }
-
-.App-link {
-  color: #61dafb;
+#HeaderFont{
+  color: #DD3333;
 }
+#Header-Content{
+   font-weight: 700;
+   font-size:24px;
+   color: #DD3333;
+   margin-left:-340px;
+   margin-top:10px;
+   margin-right:100px;
+}
+.HeaderOpt{
+  font-size: 16px;
+  font-weight:600;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#Navlink{
+  text-decoration: none;
+  list-style: none;
+  font-weight:600;
+  color:rgb(10, 10, 87);
+}
+.leftbutt{
+  position:absolute;
+  z-index: 1;
+  top:230px;
+  left:100px;
+  height:80px;
+  width:80px;
+  border:none;
+  border-radius:100%;
+  background-color: whitesmoke;
+  cursor:pointer;
+  margin-top:13px;
+}
+.RightButt{
+  position:absolute;
+  z-index: 1;
+  top:260px;
+  left:90%;
+  height:80px;
+  border:none;
+  width:80px;
+  border-radius:100%;
+  background-color: whitesmoke;
+  cursor:pointer;
+  margin-top:-10px;
+}
+.mySwiper{
+  height:80vh;
 }
