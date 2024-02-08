@@ -1,26 +1,34 @@
-import React from 'react'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 const ThirdComp = () => {
   return (
-    <div>
-        <Container className='BodyContainer' fluid >
-      <Row>
-        <Col md={{ span: 4, offset: 2 }} className='mt-4' >
-          <h3 className="align-items-center">Step into the world <span style={{color:'#03ff28'}}> of limitless <br/> selling with Fusion </span></h3> 
-          <Col className='mt-5'>
-          <NavLink to='/'  >
-          <h5>Food & Beverage <FontAwesomeIcon icon={faArrowRight} /> </h5>
-          <p>Tools that connect the front of house with back of house and <br/> integrate everything that you need to run your restaurant into one <br/> dashboard</p> 
-          <Button variant="success" style={{borderRadius:'30px' ,width:'100px'}} >Free trail</Button>
-        </NavLink>
+    <Container style={{ marginTop: '100px' }} fluid >
+      <Row >
+        <Col xs={13} md={{ span: 5, offset: 1 }}>
+          <Image src={require('../../../Assests/Images/Home-AboutImg.jpg')} fluid />
         </Col>
+        <Col xs={8} md={{ span: 4, offset: 0 }} className="xs-justify-content-center">
+          <h6 style={{ color: 'red' }}>ABOUT US</h6><br />
+          <h1>Heal & Safe Solutions</h1><br />
+          <p>Heal & Safe Solution is one of the leading suppliers of safety equipment and accessories for the building as well as persons working under risk conditions.</p>
+          <Row xs={4}>
+            <Col xs={4} md={3}>
+              <img src={require('../../../Assests/Images/Home-AboutIcon1.png')} style={{ height: '50px', width: '50px' }} /><h5>Fire Safety <br /> Products</h5></Col>
+            <Col xs={7} md={3}  >
+              <img src={require('../../../Assests/Images/Home-AboutImg2.png')} style={{ height: '50px', width: '50px' }} /><h5>Fire Safety <br /> Services</h5>
+            </Col>
+          </Row>
+          <br />
+          <p>Prime quality safety equipment and accessories are available at the best price with us. For co-operate building, we provide a fire training program. Our safety products include personal,  general, industrial and working purposes.</p>
+          <br />
+          <Button style={{ backgroundColor: '#EB003D', padding: '15px 35px', borderRadius: "30px" }}>Know More</Button>
         </Col>
-        </Row>
-</Container>
-
-    </div>
+      </Row>
+    </Container>
   )
 }
 
