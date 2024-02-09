@@ -27,12 +27,7 @@ const Home = () => {
         <div style={{marginTop:'70px'}}>
           <SeventhComponent/>
         </div>
-        <div>
-          <Footer/>
-        </div>
-        <div>
-          <SubFooter/>
-        </div>
+
 
     </div>
   )
