@@ -55,7 +55,7 @@ const FourthComponent = () => {
             <p class="d-flex justify-content-center p-5" style={{ color: 'white' }}>WHAT WE DO?</p>
             <h3 class="d-flex justify-content-center p-2" style={{ color: 'white' }}>Leading Fire Protection Services</h3>
             <Container>
-            <Row id="RowFourthComp" xs={1} sm={3} lg={3} md={3} className='g-lg-4 ms-lg-2'>
+            <Row id="RowFourthComp" xs={1} sm={3} lg={3}  className='g-lg-4 ms-lg-2'>
     {
                 product.map((val) =>
                     <Col md={6} key={val.id}>
