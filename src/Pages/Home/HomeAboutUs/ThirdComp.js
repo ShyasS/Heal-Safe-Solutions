@@ -11,7 +11,7 @@ const ThirdComp = () => {
         <Col xs={13} lg={{ span: 5, offset: 1 }} md={{span: 8, offset:2}} >
           <Image src={require('../../../Assests/Images/Home-AboutImg.jpg')} fluid />
         </Col>
-        <Col xs={12} lg={{ span: 4, offset: 0 }} md={12} className="xs-justify-content-center">
+        <Col xs={12} lg={{ span: 4, offset: 0 }} md={{span:8,offset:2}} className="xs-justify-content-center">
           <h6 style={{ color: 'red' }}>ABOUT US</h6><br />
           <h1>Heal & Safe Solutions</h1><br />
           <p>Heal & Safe Solution is one of the leading suppliers of safety equipment and accessories for the building as well as persons working under risk conditions.</p>
