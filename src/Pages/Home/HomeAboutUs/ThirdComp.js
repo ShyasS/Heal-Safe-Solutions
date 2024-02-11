@@ -8,7 +8,7 @@ const ThirdComp = () => {
   return (
     <Container style={{ marginTop: '100px' }} fluid >
       <Row >
-        <Col xs={13} lg={{ span: 5, offset: 1 }} md={12} >
+        <Col xs={13} lg={{ span: 5, offset: 1 }} md={{span: 9, offset:2}} >
           <Image src={require('../../../Assests/Images/Home-AboutImg.jpg')} fluid />
         </Col>
         <Col xs={12} md={{ span: 4, offset: 0 }} className="xs-justify-content-center">
