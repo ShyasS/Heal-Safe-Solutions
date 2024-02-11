@@ -23,6 +23,10 @@ const AboutFourthComp = () => {
             [name]: value
         })
     }
+
+    const HandleSubmit=()=>{
+        setDetail('')
+    }
     return (
         <div>
             <Container>
@@ -46,7 +50,7 @@ const AboutFourthComp = () => {
                                 <textarea type="text" class="form-control mt-md-4" value={detail.message} name="message" onChange={HandleChange} placeholder='Message' id="floatingTextarea2" style={{ height: "100px" }}></textarea>
 
                             </div>
-                            <Button style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }}>SUBMIT NOW</Button>
+                            <Button style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }} onClick={HandleSubmit}>SUBMIT NOW</Button>
                         </Row>
                     </Col>
                     <Col xs={12} md="auto" >
