@@ -24,7 +24,7 @@ const hideDropdown = e => {
                 <Container className='TopHeader' fluid >
                     <Row className='TopRow'>
                         <Col md={7} xs={10}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' />admin@healandsafe.in | <span className='ms-2'><FontAwesomeIcon icon={faLocationDot} style={{color:'#DD3333;'}}  id='HeaderFont'  /> x87/1, EB Colony,1st Street, Gandhi Nagar, Tiruppur - 641 603</span></Col>
-                        <Col  md={4} xs={9}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/>Mon-Fri 9:00 am - 7:00 pm</Col>
+                        <Col  md={3} xs={9}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/>Mon-Fri 9:00 am - 7:00 pm</Col>
                         <Col className="faIcon" >
                             <FontAwesomeIcon icon={faFacebook} />
                             <FontAwesomeIcon icon={faTwitter} style={{ marginLeft: '10px' }}  />
