@@ -67,7 +67,7 @@ const ConvCardComp = () => {
   return (
     <div className='mt-5'>
     <Container>
-         <Row  xs={1} sm={3} lg={4} md={2} className='g-4 ms-2'>
+         <Row  xs={1} sm={3} lg={4} md={2} className='g-4 ms-md-2'>
  {
              product.map((val) =>
                  <Col key={val.id}>

@@ -14,23 +14,25 @@ const ConvMainpage = () => {
                     <Row>
                         <Row>
                             <Col xs={12} md={{ span: 7, offset: 1 }} className='mt-5' >
-                                <h2 style={{ fontWeight: '550' }}>ADDRESSABLE FIRE ALARM SYSTEM</h2>
+                                <h2 style={{ fontWeight: '550' }}>Conventional Fire Alarm System</h2>
                                 <Image style={{ height: '450px' }} src={require('../../../../Assests/Images/ConvMainImg.jpg')} className='h-100  w-100' />
                             </Col>
                         </Row>
                         <Row >
                             <Col xs={12} className='mt-5' md={{ span: 7, offset: 1 }}>
-                                <p className='mt-5'>They get operated digitally during the fire breakout. They are the fire protection system that has the ability to detect change in the atmosphere and pinpoint the exact location where the fire takes place.</p>
+                                <p className='mt-5'>This type of system use one or more circuits, which are connected to sensor wires in parallel form. </p>
+                                <h6 style={{ fontWeight: '600' }}>  Ideal Use Places</h6>
+                                <ul>
+                                    <li>Small Schools</li>
+                                    <li>Restaurants.</li>
+                                    <li>Stores.</li>
+                                    <li>Apartments</li>
+                                </ul>
                                 <h6 style={{ fontWeight: '600' }}>Features</h6>
                                 <ul>
-                                    <li>In this system, we can get information about the individual detectors.</li>
-                                    <li>They allow an early ‘pre-alarm’ warning allowing the responsible person to investigate the potential alarms even before the system is getting activated.</li>
-                                    <li>The alarm system function can be altered based on the need and requirements of different environments and locations.</li>
-                                    <li>They are wired in the loop.</li>
-                                    <li>They have an event log and real-time clock to record system events.</li>
-                                    <li>In the larger addressable systems, sophisticated programming options are available that certain outputs can be operated only on specific events.</li>
-                                    <li>They are costly when compared to the conventional equivalent.</li>
-                                    <li>These systems are more efficient and significantly faster in the detection of fire.</li>
+                                    <li>In this system, we get information about only the specified circuits.</li>
+                                    <li>They are wired in radial circuits.</li>
+                                    <li>They are more economical compared to the addressable fire alarm system and best suited to smaller applications.</li>
                                 </ul>
                             </Col>
                         </Row>

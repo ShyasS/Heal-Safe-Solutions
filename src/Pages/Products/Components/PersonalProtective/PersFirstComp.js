@@ -9,11 +9,11 @@ const PersFirstComp = () => {
         <Row className="pt-md-5" style={{color:'white'}}>
             <Col md={{span:5, offset:5}}>
                 <div className='ms-4'>
-                 <hr class="ms-5 mt-5" style={{height:'10px', width:'50px',backgroundColor:'red'}}/>
+                 <hr class="PersHR" />
                  </div>
                  <div style={{marginLeft:'-120px'}}> 
-                 <h1 className='py-4'>Personal Protective Equipments</h1>
-                 <p style={{marginLeft:'90px'}}>Get your self protected from head to toe</p>
+                 <h1 className='PersTitle'>Personal Protective Equipments</h1>
+                 <p className='PersPara'>Get your self protected from head to toe</p>
                  </div>
                  <Col md={{span:6, offset:0}}>
                  <p className='mt-4 pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe -Personal Protective Equipments</p>

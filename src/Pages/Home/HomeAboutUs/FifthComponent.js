@@ -48,13 +48,13 @@ const FifthComponent = () => {
 
                         <Row xs={1} sm={2} lg={2} md={3} className='g-4'>
                             <Col className='g-4'>
-                                <Card border="primary" style={{ width: '12rem', height: '160px', margin: '10px -40px' }}>
+                                <Card id='HomeFifthCardComp' border="primary" >
                                     <Card.Img variant="top" src={require('../../../Assests/Images/Home-FifthLeftImg1.png')} style={{ height: '60px', width: '60px', margin: ' 10px 50px' }} />
                                     <Card.Body>
                                         <Card.Title style={{ margin: '20px 0' }}><h5>Quick & Easy</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
-                                <Card border="primary" style={{ width: '12rem', height: '160px', margin: '10px -40px' }}>
+                                <Card id='HomeFifthCardComp' border="primary" >
                                     <Card.Img variant="top" src={require('../../../Assests/Images/Home-FifthLeftImg2.png')} style={{ height: '60px', width: '60px', margin: ' 6px 50px' }} />
                                     <Card.Body>
                                         <Card.Title style={{ margin: '20px 0' }}><h5>Efficient & Accurate</h5></Card.Title>
@@ -62,14 +62,14 @@ const FifthComponent = () => {
                                 </Card>
                             </Col>
                             <Col className='g-4'>
-                                <Card border="primary" style={{ width: '12rem', height: '160px', margin: '10px' }}>
-                                    <Card.Img variant="top" src={require('../../../Assests/Images/Home-FifthLeftImg3.png')} style={{ height: '60px', width: '60px', margin: ' 10px 50px' }} />
+                                <Card border="primary" id='HomeFifthCardComp2'  >
+                                    <Card.Img variant="top" id="HomeFifthImage" src={require('../../../Assests/Images/Home-FifthLeftImg3.png')} />
                                     <Card.Body>
                                         <Card.Title style={{ margin: '20px 0' }}><h5>No-Obligation</h5></Card.Title>
                                     </Card.Body>
                                 </Card>
-                                <Card border="primary" style={{ width: '12rem', height: '160px', margin: '10px' }}>
-                                    <Card.Img variant="top" src={require('../../../Assests/Images/Home-FifthLeftImg4.png')} style={{ height: '60px', width: '60px', margin: ' 10px 50px' }} />
+                                <Card border="primary" id='HomeFifthCardComp2'>
+                                    <Card.Img variant="top" id="HomeFifthImage" src={require('../../../Assests/Images/Home-FifthLeftImg4.png')}/>
                                     <Card.Body>
                                         <Card.Title style={{ margin: '20px 0' }}><h5>Fast & Accurate</h5></Card.Title>
                                     </Card.Body>
@@ -77,7 +77,7 @@ const FifthComponent = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={{ span: 7, offset: 1 }} xs={7} className='me-0 ' >
+                    <Col md={{ span: 7, offset: 1 }} xs={7} id='HomeFifthlastimg' className='me-0 ' >
                         <Image src={require('../../../Assests/Images/Home-FifthImg2.jpg')} fluid />
                         <Image src={require('../../../Assests/Images/Home-FifthImg1.jpg')} fluid />
                         <Row>

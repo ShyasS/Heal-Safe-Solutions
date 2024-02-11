@@ -5,7 +5,9 @@ import SubFooter from './SubFooter'
 const MainFooter = () => {
   return (
     <div>
+      <div>
         <Footer/>
+        </div>
          <SubFooter/>
     </div>
   )

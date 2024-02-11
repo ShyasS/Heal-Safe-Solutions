@@ -8,17 +8,17 @@ import { faLocationDot,faPhoneVolume,faEnvelope,faChevronRight } from '@fortawes
 import Button from 'react-bootstrap/Button';
 const Footer = () => {
     return (
-        <div className='MainFooter'>
+        <div id='MainFooter1'>
             <Container>
                 <Row style={{ color: 'white' }}>
-                    <Col md={3} xs={2}>
+                    <Col md={3} xs={12}>
                         <img src={require('../../Assests/Images/Icon.png')} style={{ height: '70px', width: '150px', margin: '30px 0' }} />
                         <p>Safety begins with us! Standing up for Worker’s safety!</p>
                         <p>Our Branches: Coimbatore, Erode, Karur, Salem, Madurai.</p>
                         <p>Opening Hours: Mon – Fri 9:00 am to 7:00 pm</p>
                     </Col>
 
-                    <Col md={3} xs={2}>
+                    <Col md={3} xs={12}>
                         <h3 style={{ margin: '50px 0' }}>CONTACT INFO</h3>
                         <p style={{margin:'10px 0'}}><FontAwesomeIcon icon={faLocationDot} style={{margin:'0px 10px',color:'red'}}/>87/1, EB Colony,
                             1st Street, Gandi Nagar,
@@ -27,7 +27,7 @@ const Footer = () => {
                          <p style={{margin:'10px 0'}}> <FontAwesomeIcon icon={faEnvelope} style={{margin:'0px 10px',color:'red'}}/>admin@healandsafe.in / sales.cbe@healandsafe.in</p>   
 
                     </Col >
-                    <Col >
+                    <Col  >
                         <h3  style={{ margin: '50px 0' }}>PRODUCTS</h3>
                         <p> <FontAwesomeIcon icon={faChevronRight} style={{margin:'0px 10px',color:'red'}}/>Fire Extinguisher</p>
                         <p> <FontAwesomeIcon icon={faChevronRight} style={{margin:'0px 10px',color:'red'}}/>Fire Hydrant Accessories</p>
@@ -42,7 +42,7 @@ const Footer = () => {
                             <FontAwesomeIcon icon={faTwitter} style={{ marginLeft: '20px' }}  />
                             <FontAwesomeIcon icon={faPinterest} style={{ marginLeft: '20px' }} />
                             <FontAwesomeIcon icon={faInstagram} style={{ marginLeft: '20px' }} />
-                         <Col>
+                         <Col xs={12}>
                             <Button style={{padding:'10px 20px', backgroundColor:'grey',borderColor:"grey",margin:'30px 0'}}>Download catalogue</Button>
                             </Col>
                         </Col>

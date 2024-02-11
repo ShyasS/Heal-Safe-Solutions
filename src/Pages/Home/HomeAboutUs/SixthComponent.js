@@ -137,7 +137,7 @@ const SixthComponent = () => {
 
     const [product, setProduct] = useState(data)
     return (
-        <div>
+        <div className='HomeSwiper'>
             <Swiper
                 slidesPerView={5}
                 spaceBetween={100}

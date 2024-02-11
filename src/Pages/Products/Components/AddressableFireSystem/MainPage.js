@@ -24,13 +24,13 @@ const MainPage = () => {
                 <Container>
                     <Row>
                         <Row>
-                            <Col xs={12} md={{ span: 7, offset: 1 }} className='mt-5' >
+                            <Col xs={12} md={{ span: 8, offset: 1 }} className='mt-5' >
                                 <h2 style={{ fontWeight: '550' }}>ADDRESSABLE FIRE ALARM SYSTEM</h2>
                                 <Image style={{ height: '450px' }} src={require('../../../../Assests/Images/AddressableFireImgMain.jpg')} className='h-100  w-100' />
                             </Col>
                         </Row>
                         <Row >
-                            <Col xs={12} className='mt-5' md={{ span: 7, offset: 1 }}>
+                            <Col xs={11} className='mt-5' md={{ span: 7, offset: 1 }}>
                                 <p className='mt-5'>They get operated digitally during the fire breakout. They are the fire protection system that has the ability to detect change in the atmosphere and pinpoint the exact location where the fire takes place.</p>
                                 <h6 style={{ fontWeight: '600' }}>Features</h6>
                                 <ul>

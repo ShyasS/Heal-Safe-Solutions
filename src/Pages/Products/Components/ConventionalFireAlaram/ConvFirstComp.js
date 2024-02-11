@@ -9,12 +9,12 @@ const ConvFirstComp = () => {
     <Container>
         <Row className="pt-md-5" style={{color:'white'}}>
             <Col md={{span:5, offset:5}}>
-                 <hr class="ms-5 mt-5" style={{height:'10px', width:'50px',backgroundColor:'red'}}/>
+                 <hr class="ConvenHR" />
                  <div style={{marginLeft:'-190px'}}> 
-                 <h1 className='py-5'>Conventional Fire Alarm System</h1>
+                 <h1 className='ConvTitle'>Conventional Fire Alarm System</h1>
                  </div>
                  <Col md={{span:5, offset:0}}>
-                 <p className=' pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe - Conventional Fire Alarm System</p>
+                 <p className='mt-4 pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe - Conventional Fire Alarm System</p>
                  </Col>
             </Col>
         </Row>

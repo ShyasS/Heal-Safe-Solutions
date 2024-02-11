@@ -9,9 +9,9 @@ const AddressableFirstComp = () => {
     <Container>
         <Row className="pt-md-5" style={{color:'white'}}>
             <Col md={{span:5, offset:5}}>
-                 <hr class="ms-5 mt-5" style={{height:'10px', width:'50px',backgroundColor:'red'}}/>
+                 <hr class="FirstAddressHR" />
                  <div style={{marginLeft:'-190px'}}> 
-                 <h1 className='py-5'>Addressable Fire Alarm System</h1>
+                 <h1 class="FirstAddressTitle" >Addressable Fire Alarm System</h1>
                  </div>
                  <Col md={{span:5, offset:0}}>
                  <p className='mt-4 pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe - Addressable Fire Alarm System</p>
