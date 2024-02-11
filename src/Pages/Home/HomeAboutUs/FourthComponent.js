@@ -58,7 +58,7 @@ const FourthComponent = () => {
             <Row id="RowFourthComp" xs={1} sm={3} lg={3} md={3} className='g-lg-4 ms-lg-2'>
     {
                 product.map((val) =>
-                    <Col md={6} key={val.id}>
+                    <Col md={3} key={val.id}>
                         <Card style={{ width: '18rem'}}>
                             <Card.Img variant="top" src={val.image.png} />
                             <Card.Body>
