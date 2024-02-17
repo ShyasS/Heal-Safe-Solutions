@@ -24,7 +24,7 @@ const hideDropdown = e => {
                 <Container className='TopHeader' fluid >
                     <Row className='TopRow'>
                         <Col md={7} xs={10}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' />admin@healandsafe.in | <span className='ms-2'><FontAwesomeIcon icon={faLocationDot} style={{color:'#DD3333;'}}  id='HeaderFont'  /> x87/1, EB Colony,1st Street, Gandhi Nagar, Tiruppur - 641 603</span></Col>
-                        <Col  md={3} xs={9}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/>Mon-Fri 9:00 am - 7:00 pm</Col>
+                        <Col  md={3} xs={8}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/>Mon-Fri 9:00 am - 7:00 pm</Col>
                         <Col className="faIcon" >
                             <FontAwesomeIcon icon={faFacebook} />
                             <FontAwesomeIcon icon={faTwitter} style={{ marginLeft: '10px' }}  />
@@ -33,7 +33,9 @@ const hideDropdown = e => {
                         </Col>
                     </Row>
                 </Container>
-            </div>  
+            </div> 
+            
+             
             <div>
                 <Navbar  expand="lg" className='Main2ndHeader' >
                     <Container >
@@ -71,7 +73,7 @@ const hideDropdown = e => {
                                 <Link to={'/ContactUs'} className='navlink ms-5' id="Navlink" href="#Resources">Contact</Link>
                             </Nav>       
                         </Navbar.Collapse>
-                        <Col md={8} xs={6} lg={2}> 
+                        <Col md={8} xs={9} lg={2}> 
                         <FontAwesomeIcon icon={faPhoneVolume} id="NavCall" /><span className='' id='NavText' > Feel Free To Call Us! <br/><span className='ms-5'>73392 53111</span></span>
                         </Col>
                     </Container>
