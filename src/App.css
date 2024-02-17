@@ -82,7 +82,7 @@ body{
 .HomeFourthMain{
   margin-top:100px;
   background-image: url('../src/Assests/Images/service_bg.jpg');
-  height:120vh;
+
   width:100%;
 }
 .HomeFifthLeftComp{
@@ -440,7 +440,7 @@ margin-top:30px;
    height:130vh;
   }
   .HomeFourthMain{
-    height:313vh;
+
     width:100%;   
 
   }
