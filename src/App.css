@@ -87,7 +87,7 @@ body{
 }
 .HomeFifthLeftComp{
   background-image: url('./Assests/Images/service_bg.jpg');
-  height:97.3vh;
+
   width:100%;
 }
 
@@ -116,7 +116,7 @@ body{
 }
 #MainFooter1{
   background-image:url('./Assests/Images/Background-Img.png');
-  height:50vh;
+
   width:100%;
 }
 .SubFooter{
@@ -437,7 +437,7 @@ margin-top:30px;
 
 @media screen and (min-width:320px) and (max-width:575px){
   #MainFooter1{
-   height:130vh;
+
   }
   .HomeFourthMain{
 
@@ -448,7 +448,7 @@ margin-top:30px;
     gap:20px;
   }
   .HomeFifthLeftComp{
-     height:190vh;
+
 
   }
   #HomeFifthCardComp{
