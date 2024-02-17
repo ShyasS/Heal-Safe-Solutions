@@ -42,11 +42,12 @@ const FifthComponent = () => {
         <div className="HomeFifthLeftComp">
             <Container >
                 <Row>
-                    <Col md={{ span: 3, offset: 1 }}>
+                    <Col lg={{ span: 3, offset: 1 }} md={{span:5, offset:0}} className='mx-auto' >
                         <h6 class="d-flex justify-content-center p-5" style={{ color: 'white' }}>WHY CHOOSE US?</h6>
                         <h1 class="d-flex justify-content-center p-2" style={{ color: 'white' }}>People choose us for our quality craftsmanship!</h1>
 
-                        <Row xs={1} sm={2} lg={2} md={2} className='g-4'>
+                        <Row xs={1} sm={2} lg={2} md={{span:2, offset:0}} className='g-4'>
+                   
                             <Col className='g-4'>
                                 <Card id='HomeFifthCardComp' border="primary" >
                                     <Card.Img variant="top" src={require('../../../Assests/Images/Home-FifthLeftImg1.png')} style={{ height: '60px', width: '60px', margin: ' 10px 50px' }} />
@@ -77,7 +78,7 @@ const FifthComponent = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={{ span: 7, offset: 1 }} xs={7} id='HomeFifthlastimg' className='me-0 ' >
+                    <Col lg={{ span: 7, offset: 1 }} xs={7} md={12} id='HomeFifthlastimg' className='me-0 ' >
                         <Image src={require('../../../Assests/Images/Home-FifthImg2.jpg')} fluid />
                         <Image src={require('../../../Assests/Images/Home-FifthImg1.jpg')} fluid />
                         <Row>

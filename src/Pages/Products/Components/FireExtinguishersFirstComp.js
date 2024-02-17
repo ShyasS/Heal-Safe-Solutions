@@ -21,10 +21,10 @@ const FireExtinguishersFirstComp = () => {
             <Container>
                 <Row>
                     <Row>
-                        <Col xs={12} md={{ span: 6, offset: 1 }} >
+                        <Col xs={12} lg={{ span: 6, offset: 1 }}  >
                             <Image style={{ height: '450px' }} src={require('../../../Assests/Images/FireExtinguishers.jpg')} className='h-100  w-100' />
                         </Col>
-                        <Col xs={12} md={{ span: 4, offset: 0 }} className='text-white text-center '>
+                        <Col xs={12} lg={{ span: 4, offset: 0 }} className='text-white text-center '>
                             <div className='FireExtinguishersColImg h-100 w-100'>
                                 <FontAwesomeIcon icon={faPhone} className='mt-5' style={{ fontSize: '40px', backgroundColor: 'yellow', borderRadius: '50%', padding: '10px', color: 'black' }} />
                                 <h4 className='mt-5' >Have any questions? call <br /> us<span className="text-center ms-2" style={{ color: 'yellow' }} >today!</span> </h4>
@@ -34,7 +34,7 @@ const FireExtinguishersFirstComp = () => {
                         </Col>
                     </Row>
                     <Row >
-                        <Col xs={12} className='mt-5' md={{ span: 7, offset: 1 }}>
+                        <Col xs={12} className='mt-5' lg={{ span: 7, offset: 1 }}>
                             <h1>Protect Everything From Fire</h1>
                             <p>Fire Extinguishers are one of the pre-dominate safety equipment in places like homes, offices, educational institutions, cars, etc.  Every fire extinguisher is designeofased to the need and requirements of the building.  In big companies like server racks, data centres, etc. fire extinguishers are important to avoid the big fire break-out. It is mandatory to have fire extinguishers in all commercial buildings by law.</p>
                             <ul>
@@ -49,7 +49,7 @@ const FireExtinguishersFirstComp = () => {
                                 <li>Before using the fire extinguisher read the first four safety tips</li>
                             </ul>
                         </Col>
-                        <Col xs={{ span: 9, offset: 2 }} md={{ span: 3, offset: 0 }}>
+                        <Col xs={{ span: 9, offset: 2 }} lg={{ span: 3, offset: 0 }}>
                             <div className='FireExtinguishersColImg1'>
                                 <div className='ms-4'>
                                     <Image src={require('../../../Assests/Images/FireExtinguishersImg2jpg.jpg')} className=' mt-5 ms-5 h-25 w-25' />

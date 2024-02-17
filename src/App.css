@@ -135,7 +135,6 @@ margin-top:30px;
 
 .AboutFirstComp{
   background-image:url('./Assests/Images/Background-Img.png');
-  height:65vh;
   width:100%;
 }
 .AboutFirstSpan{
@@ -157,7 +156,7 @@ margin-top:30px;
 }
 .AboutThirdMain{
   background-image: url('./Assests/Images/AboutThirdMainImg.jpg');
-  height:100vh;
+
   width:100%;
 }
 .AboutFifthComp{
@@ -595,4 +594,11 @@ margin-top:30px;
   background-color:'#010D14';
    color:white;
 }
+}
+
+@media screen and (min-width:750px) and (max-width:1040px){
+  .HomeSwiper{
+    height:100px;
+    width:100%;
+  } 
 }

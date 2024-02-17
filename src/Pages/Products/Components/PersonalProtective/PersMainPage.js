@@ -23,10 +23,10 @@ const PersMainPage = () => {
             <Container>
                 <Row>
                     <Row>
-                        <Col xs={12} md={{ span: 6, offset: 1 }} >
+                        <Col xs={12} lg={{ span: 6, offset: 1 }} >
                             <Image style={{ height: '450px' }} src={require('../../../../Assests/Images/PersonalMainImg.jpg')} className='h-100  w-100' />
                         </Col>
-                        <Col xs={12} md={{ span: 4, offset: 0 }} className='text-white text-center '>
+                        <Col xs={12} lg={{ span: 4, offset: 0 }} className='text-white text-center '>
                             <div className='FireExtinguishersColImg h-100 w-100'>
                                 <FontAwesomeIcon icon={faPhone} className='mt-5' style={{ fontSize: '40px', backgroundColor: 'yellow', borderRadius: '50%', padding: '10px', color: 'black' }} />
                                 <h4 className='mt-5' >Have any questions? call <br /> us<span className="text-center ms-2" style={{ color: 'yellow' }} >today!</span> </h4>
@@ -36,7 +36,7 @@ const PersMainPage = () => {
                         </Col>
                     </Row>
                     <Row >
-                        <Col xs={12} className='mt-5' md={{ span: 7, offset: 1 }}>
+                        <Col xs={12} className='mt-5' lg={{ span: 7, offset: 1 }}>
                             <h1>We ensure Provide the best quality personal safety equipment.</h1>
                             <p className='mt-4'>PPE refers to personal protective equipment. PPE may be clothing or equipment. These are mainly designed to protect the employee in the work site by reducing exposure to physical hazards, chemical and biological. NIOSH (National Institute for Occupational Safety and Health) states that business persons to ensure the worker's safety as well as a healthy environment to work. Here is the list of PPE.</p>
                             <ul className='mt-4'>
@@ -56,7 +56,7 @@ const PersMainPage = () => {
                                 <li>The efficiency and productivity of the employees are improved</li>
                             </ul>
                         </Col>
-                        <Col xs={{ span: 9, offset: 2 }} md={{ span: 3, offset: 0 }}>
+                        <Col xs={{ span: 9, offset: 2 }} lg={{ span: 3, offset: 0 }}>
                             <div className='FireExtinguishersColImg1'>
                                 <div className='ms-4'>
                                     <Image src={require('../../../../Assests/Images/FireExtinguishersImg2jpg.jpg')} className=' mt-5 ms-5 h-25 w-25' />

@@ -25,7 +25,7 @@ const ContSecComp = () => {
     <div className='ContMainDiv mt-5'>
              <Container>
       <Row xs={1} md={3}>
-        <Col xs={5} md={3}>
+        <Col xs={3} sm={3} md={3}>
         {/* <div className="">
             <iframe
              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446627!2d77.31848897452144!3d11.128526052601545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907abb1cffc21%3A0xbb5f457ee5ab3833!2sHEAL%20%26%20SAFE%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1707557385948!5m2!1sen!2sin"

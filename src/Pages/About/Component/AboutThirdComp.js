@@ -9,7 +9,7 @@ const AboutThirdComp = () => {
     <div className='AboutThirdMain'>
         <Container>
       <Row className='text-white py-md-5'>
-        <Col md={5}>
+        <Col lg={5} md={5}>
         <hr class="mt-5" style={{height:'10px', width:'50px',backgroundColor:'#DD3333'}}/>
         <h3>Our Fire Safety skills and work experience in Safety Projects</h3>
 
@@ -18,7 +18,7 @@ const AboutThirdComp = () => {
           <SkillsBar/>
           </Col> 
          </Col>
-        <Col md={{span:6, offset:1}} className='mt-5'>
+        <Col lg={{span:6, offset:1}} md={7} className='mt-5'>
             <Image className='h-100 w-100' src={require('../../../Assests/Images/AboutThirdImg2.jpg')}/>
            </Col>
       </Row>
