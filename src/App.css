@@ -161,7 +161,7 @@ margin-top:30px;
 }
 .AboutFifthComp{
   background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('./Assests/Images/AboutFifthImg.jpg');
-  height:66vh;
+  padding: 20px;
   width:100%;
   background-size: cover;
   background-position: center;
