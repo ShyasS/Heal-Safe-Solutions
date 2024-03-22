@@ -23,7 +23,7 @@ const SkillsBar = () => {
     return (
         <div className='mt-5'>
             <h6>Planning</h6>
-           <div className="progressbar w-25">
+           <div className="progressbar">
 			  <div  style={{
 				  height: "100%",
 				  width: `${planning}%`,
@@ -36,7 +36,7 @@ const SkillsBar = () => {
             </div >
             <div className='mt-5'>
             <h6>Design</h6>
-           <div className="progressbar w-25 ">
+           <div className="progressbar ">
 			  <div style={{
 				  height: "100%",
 				  width: `${design}%`,
@@ -50,7 +50,7 @@ const SkillsBar = () => {
             </div>
   <div className='mt-5'>
             <h6>Development</h6>
-           <div className="progressbar w-25">
+           <div className="progressbar">
 			  <div style={{
 				  height: "100%",
 				  width: `${Development}%`,
@@ -63,7 +63,7 @@ const SkillsBar = () => {
             </div>
  <div className='mt-5'>
             <h6>Delivery</h6>
-           <div className="progressbar w-25">
+           <div className="progressbar">
 			  <div style={{
 				  height: "100%",
 				  width: `${Delivery}%`,

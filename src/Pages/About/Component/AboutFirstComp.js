@@ -5,19 +5,19 @@ import Col from 'react-bootstrap/Col';
 
 const AboutFirstComp = () => {
     return (
-        <div className='AboutFirstComp'>
-            <Container>
-                <Row className="pt-md-5" style={{color:'white'}}>
-                    <Col md={{span:4, offset:5}}>
-                         <hr id="AboutHr" />
-                         <h1 className='Abouttext'>About Us</h1>
-                         <Col md={{span:6, offset:0}}>
-                         <p className='mt-4 pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe -About</p>
-                         </Col>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+            <div className='AboutFirstComp '  >
+                <Container >
+                    <Row className="pt-5 mx-auto" style={{color:'white'}}>
+                    <hr id="AboutHr" className='mx-auto'  />
+                        <Col className='d-flex justify-content-center' lg={12}  >
+                            <h1 className=''>About Us</h1>
+                            </Col>
+                            <Col className='mx-auto' lg={12} >
+                            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe -About</p>
+                            </Col>  
+                    </Row>
+                </Container>
+                </div>
     )
 }
 

@@ -4,7 +4,7 @@ const SubFooter = () => {
   return (
     <div className='SubFooter'>
         <div className='text-center pt-5' >
-      <p >© 2022 healandsafe</p>
+      <p >© 2022 BTSafe</p>
       </div>
     </div>
   )

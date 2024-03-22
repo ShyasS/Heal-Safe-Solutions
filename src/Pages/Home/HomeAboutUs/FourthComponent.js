@@ -59,7 +59,7 @@ const FourthComponent = () => {
     {
                 product.map((val) =>
                     <Col key={val.id}>
-                        <Card style={{ width: '18rem'}}>
+                        <Card id="CarddSize">
                             <Card.Img variant="top" src={val.image.png} />
                             <Card.Body>
                                 <Card.Title>{val.title}</Card.Title>

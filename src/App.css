@@ -20,8 +20,8 @@ body{
 }
 #NavText{
   color:white;
-  position: relative;
-  top:-20px;
+  /* position: relative;
+  top:-20px; */
 
 }
 #HeaderFont{
@@ -129,13 +129,12 @@ body{
 height:10px;
 width:50px;
 background-color:red;
-margin-left: 50px;
-margin-top:30px;
+
 }
 
 .AboutFirstComp{
   background-image:url('./Assests/Images/Background-Img.png');
-  width:100%;
+
 }
 .AboutFirstSpan{
   background-color: #FFB703;
@@ -264,7 +263,12 @@ margin-top:30px;
     margin-left:20px;
   }
 .ContCol2Main{
-  height:550px;
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url('./Assests/Images/ContSecImg.png');
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:70vh;
 }
 .ContactThirdRow{
     
@@ -280,7 +284,7 @@ margin-top:30px;
   width:55px;
 }
 .Cont3Cardd{
-  margin-left:150px;
+
 }
  .SerAidHR{
   height:10px ;
@@ -372,7 +376,7 @@ margin-top:30px;
   color:white;
 }
 .ContMainDiv{
-  margin-left:160px;
+  /* margin-left:160px; */
 }
 /* .HeaderDropdown{
   display: none;
@@ -384,9 +388,14 @@ margin-top:30px;
    top:60px;
    display: block;
 } */
+
+
 .dropdown_menu1{
   display:none;
   margin-left:-20px;
+}
+#CarddSize{
+  width: 18rem;
 }
 .dropdown_menu1 a{
   text-decoration: none;
@@ -434,7 +443,7 @@ margin-top:30px;
 
 
 
-@media screen and (min-width:320px) and (max-width:575px){
+@media screen and (min-width:279px) and (max-width:575px){
   #MainFooter1{
 
   }
@@ -448,7 +457,9 @@ margin-top:30px;
   }
   .HomeFifthLeftComp{
 
-
+  }
+  #CarddSize{
+    width:14rem;
   }
   #HomeFifthCardComp{
     margin-left:70px;
@@ -470,7 +481,7 @@ margin-top:30px;
     margin-left:160px;
   }
   .Abouttext{
-    margin-left:130px;
+    /* margin-left:130px; */
   }
   #FireExtHr{
     margin-left:170px;
@@ -601,4 +612,13 @@ margin-top:30px;
     height:100px;
     width:100%;
   } 
+}
+
+@media screen and (min-width:756px) and (max-width:1350px){
+  .RightButt{
+    display:none;
+  }
+  .leftbutt{
+    display:none;
+  }
 }

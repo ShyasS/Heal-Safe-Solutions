@@ -4,21 +4,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 const SerThirdFirstComp = () => {
   return (
-    <div className='AboutFirstComp'>
-    <Container>
-        <Row className="pt-md-5" style={{color:'white'}}>
-            <Col md={{span:5, offset:5}}>
-                 <hr class="SerFightHR" />
-                 <div style={{marginLeft:'-90px'}}> 
-                 <h1 className='SerFightTitle'>Fire Fighting Training</h1>
-                 </div>
-                 <Col md={{span:5, offset:0}}>
-                 <p className=' pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe - Fire Fighting Training</p>
-                 </Col>
+
+<div className='AboutFirstComp '  >
+<Container >
+    <Row className="pt-5 mx-auto" style={{color:'white'}}>
+    <hr id="AboutHr" className='mx-auto'  />
+        <Col className='d-flex justify-content-center' lg={12}  >
+            <h1 className=''>Fire Fighting Training</h1>
             </Col>
-        </Row>
-    </Container>
-    </div>
+            <Col className='mx-auto' lg={12} >
+            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe - Fire Fighting Training</p>
+            </Col>  
+    </Row>
+</Container>
+</div>
   )
 }
 

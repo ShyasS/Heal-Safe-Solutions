@@ -24,8 +24,8 @@ const ContSecComp = () => {
   return (
     <div className='ContMainDiv mt-5'>
              <Container>
-      <Row xs={1} md={3}>
-        <Col xs={3} sm={3} md={3}>
+      <Row xs={1} md={12}>
+        {/* <Col xs={3} sm={3} md={3}> */}
         {/* <div className="">
             <iframe
              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446627!2d77.31848897452144!3d11.128526052601545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907abb1cffc21%3A0xbb5f457ee5ab3833!2sHEAL%20%26%20SAFE%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1707557385948!5m2!1sen!2sin"
@@ -38,7 +38,7 @@ const ContSecComp = () => {
 
 <div>
 
-<div className="googlemap">
+{/* <div className="googlemap">
         <iframe 
           className="google-iframe"
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d77.31848897452146!3d11.128526052601545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907abb1cffc21%3A0xbb5f457ee5ab3833!2sHEAL%20%26%20SAFE%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1707636553274!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
@@ -48,10 +48,10 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d
           aria-hidden="false" 
           tabIndex="0" 
           />
-      </div>
+      </div> */}
     </div>
-        </Col>
-        <Col className='ContCol2Main' xs={10} md={4} >
+        {/* </Col> */}
+        <Col className='ContCol2Main' xs={10} lg={12} >
                         <h1>Get in touch</h1>
                         <Row>
                             <Col >
@@ -69,12 +69,12 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d
                                 <textarea type="text" class="form-control mt-md-4" value={detail.message} name="message" onChange={HandleChange} placeholder='Message' id="floatingTextarea2" style={{ height: "100px" }}></textarea>
 
                             </div>
-                            <Button style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }}>SUBMIT NOW</Button>
+                            <Button className='mx-auto' style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }}>SUBMIT NOW</Button>
                         </Row>
                     </Col>
-        <Col  md={4} xs={10} style={{height:'550px'}}>
+        {/* <Col  lg={4} xs={10} style={{height:'550px'}} className="my-md-4">
            <Image src={require('../../Assests/Images/ContSecImg.png')} className='h-100 w-100'/>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
 

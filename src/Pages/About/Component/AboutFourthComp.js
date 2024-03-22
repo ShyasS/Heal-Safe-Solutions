@@ -30,8 +30,8 @@ const AboutFourthComp = () => {
     return (
         <div>
             <Container>
-                <Row className="justify-content-md-center">
-                    <Col lg="4">
+                <Row className="d-flex justify-content-md-center">
+                    <Col lg={4} xs={12} >
                         <h6><Image src={require('../../../Assests/Images/AboutSecondImg4.jpeg')} /><span className='ms-3'>LETS TALK</span></h6>
                         <h1>Have an upcoming project?</h1>
                         <Row>
@@ -53,8 +53,10 @@ const AboutFourthComp = () => {
                             <Button style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }} onClick={HandleSubmit}>SUBMIT NOW</Button>
                         </Row>
                     </Col>
-                    <Col xs={12} md="auto" >
-                        <Card style={{ width: '18rem' }}>
+                    <Col xs={12} lg={3} md={12} className='' >
+                        <Row className="mx-auto">
+                        <Col md={6} xs={12} lg={12} className='my-3 ' >
+                        <Card id="CarddSize" >
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.1jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Tirupur office
@@ -65,7 +67,9 @@ const AboutFourthComp = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem' }}>
+                        </Col>
+                        <Col md={4} xs={12} lg={12} className='my-3' >
+                        <Card id="CarddSize">
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.2jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Email us
@@ -75,7 +79,9 @@ const AboutFourthComp = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem' }}>
+                        </Col>
+                        <Col md={4} xs={12} lg={12} className='my-md-3' >
+                        <Card id="CarddSize">
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.3jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Call us
@@ -85,6 +91,8 @@ const AboutFourthComp = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Col>
+                        </Row>
                     </Col>
                     <Col xs={{ span: 10, offset: 0 }} lg={{ span: 5, offset: 0 }}  >
                         <Image src={require('../../../Assests/Images/AboutFourthImg.jpg')} className='h-100  w-100' />

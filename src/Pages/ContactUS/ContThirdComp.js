@@ -54,10 +54,10 @@ const ContThirdComp = () => {
 
 <div className='Cont3Cardd'>
 <Container>
-      <Row>
+      <Row className='mx-auto' >
         {
             product.map((val)=>
-            <Col xs={12} md={3}key={val.id}>
+            <Col xs={12} className='my-3' lg={4} md={6}key={val.id}>
               <Card style={{ width: '18rem',backgroundColor:'#010D14', color:'white'}}>
       <Card.Img variant="top" src={val.image.png} className='h-25 w-25' />
       <Card.Body>

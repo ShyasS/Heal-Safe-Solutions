@@ -5,21 +5,19 @@ import Col from 'react-bootstrap/Col';
 
 const ConvFirstComp = () => {
   return (
-    <div className='AboutFirstComp'>
-    <Container>
-        <Row className="pt-md-5" style={{color:'white'}}>
-            <Col md={{span:5, offset:5}}>
-                 <hr class="ConvenHR" />
-                 <div style={{marginLeft:'-190px'}}> 
-                 <h1 className='ConvTitle'>Conventional Fire Alarm System</h1>
-                 </div>
-                 <Col md={{span:5, offset:0}}>
-                 <p className='mt-4 pt-4 text-center py-3' style={{backgroundColor:'#545050',marginLeft:'-39px'}}>healandsafe - Conventional Fire Alarm System</p>
-                 </Col>
-            </Col>
-        </Row>
-    </Container>
-    </div>
+<div className='AboutFirstComp '  >
+<Container >
+    <Row className="pt-5 mx-auto" style={{color:'white'}}>
+    <hr id="AboutHr" className='mx-auto'  />
+        <Col className='d-flex justify-content-center' lg={12}  >
+             <h1 className=''>Conventional Fire Alarm System</h1>
+             </Col>
+             <Col className='mx-auto' lg={12} >
+             <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe - Conventional Fire Alarm System</p>
+             </Col>  
+    </Row>
+</Container>
+</div>
   )
 }
 
