@@ -84,7 +84,7 @@ const hideDropdown = e => {
             </div> 
 
 
-                <Navbar expand="lg" className='Main2ndHeader overflow-hidden'>
+                <Navbar expand="lg" className='Main2ndHeader '>
       <Container>
       <Navbar.Brand href="#home" > <img src={require('../../Assests/Images/Icon.png')} style={{ height: '80px'}} /></Navbar.Brand> 
       <Navbar.Toggle style={{backgroundColor:'white'}} aria-controls=" justify-content-md-end responsive-navbar-nav" />
@@ -93,7 +93,7 @@ const hideDropdown = e => {
                                 <Link to={'/'} className='navlink' id="Navlink" href="#home">Home</Link>
                                 <Link to={'/aboutus'} className='navlink ms-5' id="Navlink" >About Us</Link>
                                 <Link href="#" className='navlink ms-5' id="Navlink">Our Products
-                                  <div class="dropdown_menu1">
+                                  <div class="dropdown_menu1  ">
                 <ul class="ul1">
                   <Link to={'/fireExtinguisher'}><li class="li1">Fire Extinguisher </li></Link> 
                   <Link to={'/firehydrants'}><li class="li1">Fire Hydrants</li></Link> 
