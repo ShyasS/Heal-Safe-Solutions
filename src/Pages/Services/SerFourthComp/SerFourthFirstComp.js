@@ -12,7 +12,7 @@ const SerFourthFirstComp = () => {
             <h1 className=''>First Aid Training</h1>
             </Col>
             <Col className='mx-auto' lg={12} >
-            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe - First Aid Training</p>
+            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe - First Aid Training</p>
             </Col>  
     </Row>
 </Container>

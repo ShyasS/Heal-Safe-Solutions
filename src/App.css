@@ -427,6 +427,16 @@ background-color:red;
 }
 
 
+.SwiperWidth{
+  width:6rem;
+}
+.CardWidth{
+  width:6rem;
+}
+.mySwiper{
+  width: 58%;
+   height: 90px;
+  }
 
 
 
@@ -612,6 +622,7 @@ background-color:red;
     height:100px;
     width:100%;
   } 
+
 }
 
 @media screen and (min-width:756px) and (max-width:1350px){

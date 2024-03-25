@@ -13,7 +13,7 @@ const AboutFirstComp = () => {
                             <h1 className=''>About Us</h1>
                             </Col>
                             <Col className='mx-auto' lg={12} >
-                            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe -About</p>
+                            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe - About</p>
                             </Col>  
                     </Row>
                 </Container>

@@ -56,12 +56,12 @@ const SerFourthCard = () => {
   return (
     <div className='mt-5'>
     <Container>
-         <Row  xs={1} sm={3} lg={4} md={2} className='g-4 ms-md-2'>
+         <Row  xs={1} sm={3} lg={4} md={2} className='g-2 ms-md-2'>
  {
              product.map((val) =>
                  <Col key={val.id}>
-                     <Card style={{ width: '18rem'}}>
-                         <Card.Img variant="top" src={val.image.png} />            
+                     <Card style={{ width: '18rem'}} className='my-2'>
+                         <Card.Img variant="top" style={{height:'15rem'}} src={val.image.png} />            
                      </Card>
                      </Col>
           

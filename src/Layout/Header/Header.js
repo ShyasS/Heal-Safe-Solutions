@@ -71,7 +71,7 @@ const hideDropdown = e => {
 <div>
                 <Container className='TopHeader' fluid >
                     <Row className='TopRow'>
-                        <Col lg={{span:4, offset:2}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' /><span className='ms-1'>admin@healandsafe.in</span></Col>
+                        <Col lg={{span:4, offset:2}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' /><span className='ms-1'>support@bytone.in</span></Col>
                         <Col  md={3} xs={12}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/><span className='ms-1'>Mon-Fri 9:00 am - 7:00 pm</span></Col>
                         {/* <Col className="faIcon" >
                             <FontAwesomeIcon icon={faFacebook} />
@@ -86,7 +86,7 @@ const hideDropdown = e => {
 
                 <Navbar expand="lg" className='Main2ndHeader '>
       <Container>
-      <Navbar.Brand href="#home" > <img src={require('../../Assests/Images/Icon.png')} style={{ height: '80px'}} /></Navbar.Brand> 
+      <Navbar.Brand href="#home" ><Link to={'/'}> <img src={require('../../Assests/Images/Icon.png')} style={{ height: '80px'}} /></Link></Navbar.Brand> 
       <Navbar.Toggle style={{backgroundColor:'white'}} aria-controls=" justify-content-md-end responsive-navbar-nav" />
       <Navbar.Collapse className='HeaderOpt' id=" justify-content-md-end responsive-navbar-nav">
                             <Nav className='MainNav mx-auto'>

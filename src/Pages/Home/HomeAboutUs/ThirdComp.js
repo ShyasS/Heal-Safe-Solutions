@@ -13,8 +13,8 @@ const ThirdComp = () => {
         </Col>
         <Col xs={12} lg={{ span: 4, offset: 0 }} md={{span:8,offset:2}} className="xs-justify-content-center">
           <h6 style={{ color: 'red' }}>ABOUT US</h6><br />
-          <h1>Heal & Safe Solutions</h1><br />
-          <p>Heal & Safe Solution is one of the leading suppliers of safety equipment and accessories for the building as well as persons working under risk conditions.</p>
+          <h1>BT Safe Solutions</h1><br />
+          <p>BT Safe Solution is one of the leading suppliers of safety equipment and accessories for the building as well as persons working under risk conditions.</p>
           <Row xs={4}>
             <Col xs={4} md={3}>
               <img src={require('../../../Assests/Images/Home-AboutIcon1.png')} style={{ height: '50px', width: '50px' }} /><h5>Fire Safety <br /> Products</h5></Col>

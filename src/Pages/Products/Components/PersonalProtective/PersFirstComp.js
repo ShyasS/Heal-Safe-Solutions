@@ -14,7 +14,7 @@ const PersFirstComp = () => {
              </Col>
              <p className='d-flex justify-content-center'>Get your self protected from head to toe</p>
              <Col className='mx-auto' lg={12} >
-             <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe -Personal Protective Equipments</p>
+             <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe  - Personal Protective Equipments</p>
              </Col>  
     </Row>
 </Container>

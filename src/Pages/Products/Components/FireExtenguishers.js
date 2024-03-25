@@ -14,7 +14,7 @@ const FireExtenguishers = () => {
                          </Col>
                            <p className='d-flex justify-content-center'>Essential life saving equipment in emergency situation <br/> and to extinguish fire at early stage.</p>
                          <Col className='mx-auto' lg={12} >
-                         <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe  - Fire Extinguisher</p>
+                         <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe  - Fire Extinguisher</p>
                          </Col>  
                 </Row>
             </Container>

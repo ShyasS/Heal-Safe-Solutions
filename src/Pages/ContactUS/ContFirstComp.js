@@ -13,7 +13,7 @@ const ContFirstComp = () => {
             </Col>
             <p  className="d-flex justify-content-center" >Whether you have queries about our Fire Protection Services or need expert help for your enterprise,<br/> consult with our business experts by telephone orE-Mail, and we will be sure to back to you as soon as possible. </p>
             <Col className='mx-auto' lg={12} >
-            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe - Fire Fighting Training</p>
+            <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe - Fire Fighting Training</p>
             </Col>  
     </Row>
 </Container>

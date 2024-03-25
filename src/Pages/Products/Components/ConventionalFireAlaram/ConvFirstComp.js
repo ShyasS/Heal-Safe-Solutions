@@ -13,7 +13,7 @@ const ConvFirstComp = () => {
              <h1 className=''>Conventional Fire Alarm System</h1>
              </Col>
              <Col className='mx-auto' lg={12} >
-             <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>healandsafe - Conventional Fire Alarm System</p>
+             <p className='mt-4 pt-4 text-center py-3 mx-auto  w-50' style={{backgroundColor:'#545050'}}>BT Safe  - Conventional Fire Alarm System</p>
              </Col>  
     </Row>
 </Container>
