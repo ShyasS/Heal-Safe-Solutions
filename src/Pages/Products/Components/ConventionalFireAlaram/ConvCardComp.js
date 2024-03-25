@@ -65,14 +65,14 @@ const ConvCardComp = () => {
     ]
     const [product, setProduct] = useState(data)
   return (
-    <div className='mt-5'>
+    <div className='mt-5 my-3'>
     <Container>
-         <Row  xs={1} sm={3} lg={4} md={2} className='g-4 ms-md-2'>
+         <Row  xs={1} sm={3} xl={3} lg={3} xxl={4} md={2} className='g-4 ms-md-2'>
  {
              product.map((val) =>
                  <Col key={val.id}>
                      <Card style={{ width: '18rem'}}>
-                         <Card.Img variant="top" src={val.image.png} />            
+                         <Card.Img variant="top" style={{height:'16rem'}} src={val.image.png} />            
                      </Card>
                      </Col>
           
