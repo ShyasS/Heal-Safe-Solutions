@@ -71,7 +71,7 @@ const hideDropdown = e => {
 <div>
                 <Container className='TopHeader' fluid >
                     <Row className='TopRow'>
-                        <Col lg={{span:4, offset:2}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' /><span className='ms-1'>support@bytone.in</span></Col>
+                        <Col lg={{span:4, offset:1}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' /><span className='ms-1'>support@bytone.in</span></Col>
                         <Col  md={3} xs={12}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/><span className='ms-1'>Mon-Fri 9:00 am - 7:00 pm</span></Col>
                         {/* <Col className="faIcon" >
                             <FontAwesomeIcon icon={faFacebook} />
@@ -79,8 +79,10 @@ const hideDropdown = e => {
                             <FontAwesomeIcon icon={faPinterest} style={{ marginLeft: '10px' }} />
                             <FontAwesomeIcon icon={faInstagram} style={{ marginLeft: '10px' }} />
                         </Col> */}
+                          <Col lg={{span:2, offset:2}} className='mt-2' ><div className="d-flex justify-content-end"><FontAwesomeIcon icon={faPhoneVolume} id="NavCall" className="mt-lg-4" /> <span className='' id='NavText' > Feel Free To Call Us! <span className='fs-5'>+917010677045,<span class='ms-lg-5'><br/>+919600 251611</span></span></span></div></Col>
                     </Row>
                 </Container>
+                
             </div> 
 
 
@@ -122,7 +124,7 @@ const hideDropdown = e => {
                         </Navbar.Collapse>
                       
       </Container>
-      <div className="d-flex justify-content-center"><FontAwesomeIcon icon={faPhoneVolume} id="NavCall" className="mt-lg-4 mt-md-2" /> <span className='' id='NavText' > Feel Free To Call Us! <span className='fs-5'>+917010677045,<span class='ms-lg-5'><br/>9600 251611</span></span></span></div>
+    
     </Navbar>
             </div>
 

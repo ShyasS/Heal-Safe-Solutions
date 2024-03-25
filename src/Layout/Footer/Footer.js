@@ -21,11 +21,9 @@ const Footer = () => {
 
                     <Col lg={4}  md={6} xs={12}>
                         <h3 style={{ margin: '50px 0' }}>CONTACT INFO</h3>
-                        <p style={{margin:'10px 0'}}><FontAwesomeIcon icon={faLocationDot} style={{margin:'0px 10px',color:'red'}}/>87/1, EB Colony,
-                            1st Street, Gandi Nagar,
-                            Tiruppur - 641 603.</p>
-                         <p style={{margin:'10px 0'}}> <FontAwesomeIcon icon={faPhoneVolume} style={{margin:'0px 10px', color:'red'}}/>73392 53111 / 0421-4252101</p>   
-                         <p style={{margin:'10px 0'}}> <FontAwesomeIcon icon={faEnvelope} style={{margin:'0px 10px',color:'red'}}/>support@bytone.in / sales.cbe@healandsafe.in</p>   
+                        {/* <p style={{margin:'10px 0'}}><FontAwesomeIcon icon={faLocationDot} style={{margin:'0px 10px',color:'red'}}/></p> */}
+                         <p style={{margin:'10px 0'}}> <FontAwesomeIcon icon={faPhoneVolume} style={{margin:'0px 10px', color:'red'}}/>+917010677045 / +919600 251611</p>   
+                         <p style={{margin:'10px 0'}}> <FontAwesomeIcon icon={faEnvelope} style={{margin:'0px 10px',color:'red'}}/>support@bytone.in </p>   
 
                     </Col >
                     <Col lg={3}  md={6} xs={12} >

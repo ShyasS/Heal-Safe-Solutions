@@ -53,7 +53,7 @@ const AboutFourthComp = () => {
                             <Button style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }} onClick={HandleSubmit}>SUBMIT NOW</Button>
                         </Row>
                     </Col>
-                    <Col xs={12} lg={3} md={12} className='' >
+                    <Col xs={12} lg={4} xl={3} xxl={3} md={12} className='my-2' >
                         <Row className="mx-auto">
                         <Col md={6} xs={12} lg={12} className='my-3 ' >
                         <Card id="CarddSize" >

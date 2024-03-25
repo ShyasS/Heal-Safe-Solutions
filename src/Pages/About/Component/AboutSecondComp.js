@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 const AboutSecondComp = () => {
   return (
     <div> 
@@ -38,7 +39,7 @@ const AboutSecondComp = () => {
        <Col lg={6} className="mt-md-5" xs={8}>
            <Image className='h-50 w-75 mt-5' src={require('../../../Assests/Images/AboutSecondImg3.jpeg')}/>
        </Col>
-       <Button variant="warning"  className= 'ms-md-5'>Contact Now</Button>
+       <Link to={'/ContactUs'}><Button variant="warning"  className= 'ms-md-5'>Contact Now</Button></Link>
         </Col> 
        
       </Row>

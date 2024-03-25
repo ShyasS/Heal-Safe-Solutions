@@ -25,7 +25,7 @@ const ThirdComp = () => {
           <br />
           <p>Prime quality safety equipment and accessories are available at the best price with us. For co-operate building, we provide a fire training program. Our safety products include personal,  general, industrial and working purposes.</p>
           <br />
-          <Button style={{ backgroundColor: '#EB003D', padding: '15px 35px', borderRadius: "30px" }}>Know More</Button>
+          {/* <Button style={{ backgroundColor: '#EB003D', padding: '15px 35px', borderRadius: "30px" }}>Know More</Button> */}
         </Col>
       </Row>
     </Container>
