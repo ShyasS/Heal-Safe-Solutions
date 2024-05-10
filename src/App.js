@@ -16,6 +16,7 @@ import SerAlrmMainPag from "./Pages/Services/SerFireAlarm/SerAlrmMainPag";
 import SerThirdMainPage from "./Pages/Services/SerThirdComp/SerThirdMainPage";
 import SerFourthMainPage from "./Pages/Services/SerFourthComp/SerFourthMainPage";
 import ContMainPage from "./Pages/ContactUS/ContMainPage";
+import ClientMainComp from "./Pages/Clients/ClientMainComp";
 
 function App() {
   return (  
@@ -24,6 +25,7 @@ function App() {
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/aboutus' element={<AboutUS/>}/>
+    <Route path='/client' element={<ClientMainComp/>}/>
     <Route path='/fireExtinguisher' element={<Product/>}/>
     <Route path='/firehydrants' element={<FireHydrants/>}/>
     <Route path='/firealarms' element={<Product/>}/>

@@ -94,6 +94,7 @@ const hideDropdown = e => {
                             <Nav className='MainNav mx-auto'>
                                 <Link to={'/'} className='navlink' id="Navlink" href="#home">Home</Link>
                                 <Link to={'/aboutus'} className='navlink ms-5' id="Navlink" >About Us</Link>
+                                <Link to={'/client'} className='navlink ms-5' id="Navlink" >Our Clients</Link>
                                 <Link href="#" className='navlink ms-5' id="Navlink">Our Products
                                   <div class="dropdown_menu1  ">
                 <ul class="ul1">
