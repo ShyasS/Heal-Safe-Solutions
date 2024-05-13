@@ -57,37 +57,36 @@ const AboutFourthComp = () => {
                         <Row className="mx-auto">
                         <Col md={6} xs={12} lg={12} className='my-3 ' >
                         <Card id="CarddSize" >
-                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.1jpg.png')} />
+                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.1jpg.png')} />
                             <Card.Body>
-                                <Card.Title>Tirupur office
+                                <Card.Title>Company Details
                                 </Card.Title>
                                 <Card.Text>
-                                    87/1, E.B.Colony,<br />
-                                    1st street, Gandhi Nagar, <br /> Tirupur - 641 603
+                                        Bytone Global
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         </Col>
                         <Col md={4} xs={12} lg={12} className='my-3' >
                         <Card id="CarddSize">
-                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.2jpg.png')} />
+                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.2jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Email us
                                 </Card.Title>
                                 <Card.Text>
-                                    admin@healandsafe.in<br /> sales.cbe@healandsafe.in
+                                support@bytone.in
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         </Col>
                         <Col md={4} xs={12} lg={12} className='my-md-3' >
                         <Card id="CarddSize">
-                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} src={require('../../../Assests/Images/AboutFourthImg.3jpg.png')} />
+                            <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.3jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Call us
                                 </Card.Title>
                                 <Card.Text>
-                                    73392 53111 / 0421-4252101
+                                +917010677045 / +919600 251611
                                 </Card.Text>
                             </Card.Body>
                         </Card>

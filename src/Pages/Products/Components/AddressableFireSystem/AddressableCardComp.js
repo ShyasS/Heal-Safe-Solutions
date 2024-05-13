@@ -47,7 +47,7 @@ const AddressableCardComp = () => {
   return (
     <div className='mt-5'>
        <Container>
-            <Row  xs={1} sm={3} xl={3} xxl={4} lg={3} md={2} className='g-4 ms-md-2'>
+            <Row  xs={1} sm={3} xl={3} xxl={4} lg={3} md={2} className='g-4 ms-md-2 d-flex justify-content-center'>
     {
                 product.map((val) =>
                     <Col key={val.id}>

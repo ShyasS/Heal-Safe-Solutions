@@ -12,9 +12,9 @@ const SerAlrmCard = () => {
   }]
   const [product,setProduct] = useState(data)
   return (
-    <div className='mt-5'>
+    <div className='mt-3 '>
     <Container>
-         <Row  xs={1} sm={3} lg={2} md={1} className='g-4 ms-2'>
+         <Row  xs={1} sm={3} lg={2} md={1} className='g-4 ms-2 d-flex justify-content-center'>
  {
              product.map((val) =>
                  <Col key={val.id}>

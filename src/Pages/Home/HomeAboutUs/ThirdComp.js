@@ -8,18 +8,18 @@ const ThirdComp = () => {
   return (
     <Container style={{ marginTop: '100px' }} fluid >
       <Row >
-        <Col xs={13} lg={{ span: 5, offset: 1 }} md={{span: 8, offset:2}} >
+        <Col xs={12} xl={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 0 }} md={{span: 8, offset:2}} >
           <Image src={require('../../../Assests/Images/Home-AboutImg.jpg')} fluid />
         </Col>
-        <Col xs={12} lg={{ span: 4, offset: 0 }} md={{span:8,offset:2}} className="xs-justify-content-center">
-          <h6 style={{ color: 'red' }}>ABOUT US</h6><br />
-          <h1>BT Safe Solutions</h1><br />
+        <Col xs={12} xl={{ span: 4, offset: 0 }} lg={{ span: 6, offset: 0 }} md={{span:8,offset:2}} className="justify-content-center my-3 ">
+          <h2 style={{ color: 'red' }} className=''>ABOUT US</h2>
+          <h1>BT Safe Solutions</h1>
           <p>BT Safe Solution is one of the leading suppliers of safety equipment and accessories for the building as well as persons working under risk conditions.</p>
           <Row xs={4}>
             <Col xs={4} md={3}>
-              <img src={require('../../../Assests/Images/Home-AboutIcon1.png')} style={{ height: '50px', width: '50px' }} /><h5>Fire Safety <br /> Products</h5></Col>
+              <img src={require('../../../Assests/Images/Home-AboutIcon1.png')} style={{ height: '7rem', width: '7rem' }} /><h5>Fire Safety <br /> Products</h5></Col>
             <Col xs={7} md={3}  >
-              <img src={require('../../../Assests/Images/Home-AboutImg2.png')} style={{ height: '50px', width: '50px' }} /><h5>Fire Safety <br /> Services</h5>
+              <img src={require('../../../Assests/Images/Home-AboutImg2.png')} style={{ height: '7rem', width: '7rem' }} /><h5>Fire Safety <br /> Services</h5>
             </Col>
           </Row>
           <br />

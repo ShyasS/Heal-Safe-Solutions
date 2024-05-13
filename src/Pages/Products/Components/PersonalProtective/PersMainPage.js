@@ -20,7 +20,7 @@ const PersMainPage = () => {
     return (
         <div>
             <PersFirstComp />
-            <Container>
+            <Container className='my-3'>
                 <Row>
                     <Row>
                         <Col xs={12} lg={{ span: 6, offset: 1 }} >
@@ -48,7 +48,7 @@ const PersMainPage = () => {
                                 <li>Body Protection</li>
                                 <li>Foot Protection</li>
                             </ul>
-                            <h6 style={{ fontWeight: '600' }}>Benefits of the PPE</h6>
+                            <h3 style={{ fontWeight: '500' }}>Benefits of the PPE</h3>
                             <ul className='mt-4'>
                                 <li>Avoids unnecessary injury caused to employees at the workplace</li>
                                 <li>Reduce exposure to the chemical substance the employee</li>
@@ -57,7 +57,7 @@ const PersMainPage = () => {
                             </ul>
                         </Col>
                         <Col xs={{ span: 9, offset: 2 }} lg={{ span: 3, offset: 0 }}>
-                            <div className='FireExtinguishersColImg1'>
+                            <div className='FireExtinguishersColImg1 my-3'>
                                 <div className='ms-4'>
                                     <Image src={require('../../../../Assests/Images/FireExtinguishersImg2jpg.jpg')} className=' mt-5 ms-5 h-25 w-25' />
                                     <span className='mt-4' style={{ color: 'white' }}><h1 className='mt-5 ms-4'>{value}+</h1></span>

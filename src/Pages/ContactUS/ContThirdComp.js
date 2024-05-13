@@ -10,8 +10,8 @@ const ContThirdComp = () => {
       image : {
         png : require('../../Assests/Images/AboutFourthImg.1jpg.png')
       },
-      title : "Office address",
-      desc : "87/1, E.B.Colony, 1st street, Gandhi Nagar, Tirupur - 641 603"
+      title : "Company Details",
+      desc : "Bytone Global"
     },
     {
       id : 2,
@@ -19,7 +19,7 @@ const ContThirdComp = () => {
         png : require('../../Assests/Images/AboutFourthImg.2jpg.png')
       },
       title : "Email us",
-      desc : "87/1, E.B.Colony, 1st street, Gandhi Nagar, Tirupur - 641 603"
+      desc : "support@bytone.in"
     },
     {
       id : 3,
@@ -27,7 +27,7 @@ const ContThirdComp = () => {
         png : require('../../Assests/Images/AboutFourthImg.3jpg.png')
       },
       title : "Call us",
-      desc : "87/1, E.B.Colony, 1st street, Gandhi Nagar, Tirupur - 641 603"
+      desc : "+917010677045 / +919600 251611"
     }
   ]
   const [product,setProduct] = useState(data)
@@ -54,7 +54,7 @@ const ContThirdComp = () => {
 
 <div className='Cont3Cardd'>
 <Container>
-      <Row className='mx-auto' >
+      <Row className='mx-auto ms-xl-5' >
         {
             product.map((val)=>
             <Col xs={12} className='my-3' lg={4} md={6}key={val.id}>

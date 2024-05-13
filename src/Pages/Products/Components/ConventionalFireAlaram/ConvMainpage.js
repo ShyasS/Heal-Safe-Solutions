@@ -9,11 +9,11 @@ const ConvMainpage = () => {
   return (
     <div>
         <ConvFirstComp/>
-        <div className='mt-5'>
+        <div className='my-3'>
                 <Container>
                     <Row>
                         <Row>
-                            <Col xs={12} md={{ span: 7, offset: 1 }} className='mt-5' >
+                            <Col xs={12} md={{ span: 7, offset: 1 }}  >
                                 <h2 style={{ fontWeight: '550' }}>Conventional Fire Alarm System</h2>
                                 <Image style={{ height: '450px' }} src={require('../../../../Assests/Images/ConvMainImg.jpg')} className='h-100  w-100' />
                             </Col>
@@ -21,14 +21,14 @@ const ConvMainpage = () => {
                         <Row >
                             <Col xs={12} className='mt-5' md={{ span: 7, offset: 1 }}>
                                 <p className='mt-5'>This type of system use one or more circuits, which are connected to sensor wires in parallel form. </p>
-                                <h6 style={{ fontWeight: '600' }}>  Ideal Use Places</h6>
+                                <h3 style={{ fontWeight: '500' }}>  Ideal Use Places</h3>
                                 <ul>
                                     <li>Small Schools</li>
                                     <li>Restaurants.</li>
                                     <li>Stores.</li>
                                     <li>Apartments</li>
                                 </ul>
-                                <h6 style={{ fontWeight: '600' }}>Features</h6>
+                                <h3 style={{ fontWeight: '500' }}>Features</h3>
                                 <ul>
                                     <li>In this system, we get information about only the specified circuits.</li>
                                     <li>They are wired in radial circuits.</li>

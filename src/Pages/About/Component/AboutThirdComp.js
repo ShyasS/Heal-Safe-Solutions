@@ -11,7 +11,7 @@ const AboutThirdComp = () => {
       <Row className='text-white py-md-5'>
         <Col lg={5} md={5}>
         <hr class="mt-5" style={{height:'10px', width:'50px',backgroundColor:'#DD3333'}}/>
-        <h3>Our Fire Safety skills and work experience in Safety Projects</h3>
+        <h2>Our Fire Safety skills and work experience in Safety Projects</h2>
 
         <p>Determined to stay ahead in the combative market, we provide free demos for the safety product and equipment. Our pillars for the business's success and growth are our infrastructures and motivated employees.</p>
          <Col xs={{span:6, offset:4}} md={{span:6, offset:0}} >

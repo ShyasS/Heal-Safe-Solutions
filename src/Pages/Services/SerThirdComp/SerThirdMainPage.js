@@ -9,11 +9,11 @@ const SerThirdMainPage = () => {
   return (
     <div>
         <SerThirdFirstComp/>
-        <div className='mt-5'>
+        <div className='my-3'>
                 <Container>
                     <Row>
                         <Row>
-                            <Col xs={12} md={{ span: 10, offset: 1 }} className='mt-5' >
+                            <Col xs={12} md={{ span: 10, offset: 1 }}>
                                 <h2 style={{ fontWeight: '550' }}>Best Fire Fighting Trainings by Heal and Safe</h2>
                                 <Image style={{ height: '450px' }} src={require('../../../Assests/Images/SerThirdMainImg.jpg')} className='h-100  w-100' />
                             </Col>

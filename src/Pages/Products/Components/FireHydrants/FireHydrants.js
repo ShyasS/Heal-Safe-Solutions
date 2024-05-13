@@ -21,7 +21,7 @@ const FireHydrants = () => {
   return (
     <div>
       <FireHydFirstComp/>
-            <Container>
+            <Container className='my-3'>
                 <Row>
                     <Row>
                         <Col xs={12} lg={{ span: 6, offset: 1 }} >
@@ -39,13 +39,13 @@ const FireHydrants = () => {
                     <Row >
                         <Col xs={12} className='mt-5' lg={{ span: 7, offset: 1 }}>
                             <h1>Hydrant System</h1>
-                            <p>Hydrant accessories play a vital role in the system of firefighting.  The main purpose for designing hydrant protection is to fight the spread of fire in huge proportions. They are designed in such a way that even if the structure gets collapses they get into the operation.</p>
-                             <h6 style={{fontWeight:'600'}}>Types of Fire Hydrants</h6>
+                            <p>Hydrant accessories play a vital role in the system of firefighting. The main purpose for designing hydrant protection is to fight the spread of fire in huge proportions. They are designed in such a way that even if the structure gets collapses they get into the operation.</p>
+                             <h3 style={{fontWeight:'500'}}>Types of Fire Hydrants</h3>
                             <ul>
                                 <li>Dry Barrel - Contents Water Supply</li>
                                 <li>Wet Barrel - Need a value to release the water let out</li>
                             </ul>
-                            <h6 style={{fontWeight:'600'}}>List of Fire Hydrant Accessories</h6>
+                            <h3 style={{fontWeight:'500'}}>List of Fire Hydrant Accessories</h3>
                             <ul>
                                 <li>Fire Hose Reel Shutoff Nozzle</li>
                                 <li>Shut Off Nozzle PVC</li>
@@ -57,7 +57,7 @@ const FireHydrants = () => {
                             </ul>
                         </Col>
                         <Col xs={{ span: 9, offset: 2 }} lg={{ span: 3, offset: 0 }}>
-                            <div className='FireExtinguishersColImg1'>
+                            <div className='FireExtinguishersColImg1 my-3'>
                                 <div className='ms-4'>
                                     <Image src={require('../../../../Assests/Images/FireExtinguishersImg2jpg.jpg')} className=' mt-5 ms-5 h-25 w-25' />
                                     <span className='mt-4' style={{ color: 'white' }}><h1 className='mt-5 ms-4'>{value}+</h1></span>

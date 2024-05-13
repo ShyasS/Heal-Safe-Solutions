@@ -5,7 +5,7 @@ import Index from './Components/FireHydrants/FireHydrants'
 
 const Product = () => {
   return (
-    <div>
+    <div className=''>
         <div>
             <FireExtenguishers/>
         </div>

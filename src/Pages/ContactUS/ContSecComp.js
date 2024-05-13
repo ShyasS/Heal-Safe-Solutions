@@ -51,7 +51,7 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d
       </div> */}
     </div>
         {/* </Col> */}
-        <Col className='ContCol2Main' xs={10} lg={12} >
+        {/* <Col className='ContCol2Main' xs={10} lg={12} >
                         <h1>Get in touch</h1>
                         <Row>
                             <Col >
@@ -59,8 +59,8 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d
                                 <input type="email" class="form-control mt-md-4" value={detail.email} name="email" onChange={HandleChange} id="Name" placeholder="Email" />
                                 {/* <input type="text" class="form-control" value={detail.message} name="message" onChange={HandleChange} id="Name" placeholder="Message" /> */}
 
-                            </Col>
-                            <Col>
+                   
+                            {/* <Col>
                                 <input type="text" class="form-control mt-md-5" value={detail.website} name="website" onChange={HandleChange} id="Name" placeholder="Your Website" />
                                 <input type="number" class="form-control mt-md-4" value={detail.phone} name="phone" onChange={HandleChange} id="Name" placeholder="phone" />
 
@@ -71,7 +71,7 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.7965327446823!2d
                             </div>
                             <Button className='mx-auto' style={{ width: '150px', padding: '10px 20px', backgroundColor: '#f5c542', borderColor: '#f5c542', margin: '20px 20px', borderRadius: '0px' }}>SUBMIT NOW</Button>
                         </Row>
-                    </Col>
+                    </Col> */}
         {/* <Col  lg={4} xs={10} style={{height:'550px'}} className="my-md-4">
            <Image src={require('../../Assests/Images/ContSecImg.png')} className='h-100 w-100'/>
         </Col> */}

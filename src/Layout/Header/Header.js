@@ -71,31 +71,28 @@ const hideDropdown = e => {
 <div>
                 <Container className='TopHeader' fluid >
                     <Row className='TopRow'>
-                        <Col lg={{span:4, offset:1}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont'  className='ms-5 mt-4' /><span className='ms-1'>support@bytone.in</span></Col>
-                        <Col  md={3} xs={12}> <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4'/><span className='ms-1'>Mon-Fri 9:00 am - 7:00 pm</span></Col>
+                        <Col lg={{span:4, offset:1}} md={7} xs={12}><FontAwesomeIcon icon={faEnvelope} id='HeaderFont' className='ms-lg-1 ms-md-1 ms-xl-1 ms-xxl-1 md-0 mt-4 fs-6' /><span className='ms-1 fs-6'>support@bytone.in</span></Col>
+                        <Col  lg={3} xs={12} md={5} xl={2} > <FontAwesomeIcon icon={faClock}  id='HeaderFont' className='mt-4 fs-6'/><span className='ms-1 fs-6'>Mon-Fri 9:00 am - 7:00 pm</span></Col>
                         {/* <Col className="faIcon" >
                             <FontAwesomeIcon icon={faFacebook} />
                             <FontAwesomeIcon icon={faTwitter} style={{ marginLeft: '10px' }}  />
                             <FontAwesomeIcon icon={faPinterest} style={{ marginLeft: '10px' }} />
                             <FontAwesomeIcon icon={faInstagram} style={{ marginLeft: '10px' }} />
                         </Col> */}
-                          <Col lg={{span:2, offset:2}} className='mt-2' ><div className="d-flex justify-content-end"><FontAwesomeIcon icon={faPhoneVolume} id="NavCall" className="mt-lg-4" /> <span className='' id='NavText' > Feel Free To Call Us! <span className='fs-5'>+917010677045,<span class='ms-lg-5'><br/>+919600 251611</span></span></span></div></Col>
+                          <Col className='mt-2' ><div className="d-flex justify-content-lg-end justify-content-md-start"><FontAwesomeIcon icon={faPhoneVolume} id="NavCall" className="mt-lg-1 fs-6" /> <span className='fs-6 ' id='NavText' > Feel Free To Call Us! <br/> <span className='fs-6'>+917010677045,<span class='ms-lg-1'>+919600 251611</span></span></span></div></Col>
                     </Row>
                 </Container>
-                
             </div> 
-
-
                 <Navbar expand="lg" className='Main2ndHeader '>
       <Container>
       <Navbar.Brand href="#home" ><Link to={'/'}> <img src={require('../../Assests/Images/Icon.png')} style={{ height: '80px'}} /></Link></Navbar.Brand> 
       <Navbar.Toggle style={{backgroundColor:'white'}} aria-controls=" justify-content-md-end responsive-navbar-nav" />
       <Navbar.Collapse className='HeaderOpt' id=" justify-content-md-end responsive-navbar-nav">
-                            <Nav className='MainNav mx-auto'>
+                            <Nav className='MainNav mx-auto gap-xl-5 gap-md-2 gap-lg-4'  > 
                                 <Link to={'/'} className='navlink' id="Navlink" href="#home">Home</Link>
-                                <Link to={'/aboutus'} className='navlink ms-5' id="Navlink" >About Us</Link>
-                                <Link to={'/client'} className='navlink ms-5' id="Navlink" >Our Clients</Link>
-                                <Link href="#" className='navlink ms-5' id="Navlink">Our Products
+                                <Link to={'/aboutus'} className='navlink ' id="Navlink" >About Us</Link>
+                                <Link to={'/client'} className='navlink ' id="Navlink" >Our Clients</Link>
+                                <Link href="#" className='navlink ' id="Navlink">Our Products
                                   <div class="dropdown_menu1  ">
                 <ul class="ul1">
                   <Link to={'/fireExtinguisher'}><li class="li1">Fire Extinguisher </li></Link> 
@@ -111,7 +108,7 @@ const hideDropdown = e => {
                 </ul>
               </div>
             </Link>
-                                <Link className='navlink ms-5' id="Navlink" href="#Integrations">Our Services
+                                <Link className='navlink' id="Navlink" href="#Integrations">Our Services
                                 <div class="dropdown_menu1">
                 <ul class="ul1">
                   <Link to={'/FireHydrantProjects'}><li class="li1">Fire Hydrant Projects </li></Link> 
@@ -120,7 +117,7 @@ const hideDropdown = e => {
                   <Link to={'/FireAidTraining'}><li class="li1">Fire Aid Trainings</li></Link> 
                 </ul>
               </div></Link>
-                                <Link to={'/ContactUs'} className='navlink ms-5' id="Navlink" href="#Resources">Contact</Link>
+                                <Link to={'/ContactUs'} className='navlink' id="Navlink" href="#Resources">Contact</Link>
                             </Nav>       
                         </Navbar.Collapse>
                       

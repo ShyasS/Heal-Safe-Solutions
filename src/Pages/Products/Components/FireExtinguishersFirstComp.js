@@ -18,7 +18,7 @@ const FireExtinguishersFirstComp = () => {
     }, [value, work])
     return (
         <div>
-            <Container>
+            <Container className='my-3'>
                 <Row>
                     <Row>
                         <Col xs={12} lg={{ span: 6, offset: 1 }}  >
@@ -50,7 +50,7 @@ const FireExtinguishersFirstComp = () => {
                             </ul>
                         </Col>
                         <Col xs={{ span: 9, offset: 2 }} lg={{ span: 3, offset: 0 }}>
-                            <div className='FireExtinguishersColImg1'>
+                            <div className='FireExtinguishersColImg1 my-3'>
                                 <div className='ms-4'>
                                     <Image src={require('../../../Assests/Images/FireExtinguishersImg2jpg.jpg')} className=' mt-5 ms-5 h-25 w-25' />
                                     <span className='mt-4' style={{ color: 'white' }}><h1 className='mt-5 ms-4'>{value}+</h1></span>
