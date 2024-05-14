@@ -35,7 +35,7 @@ const AboutSecondComp = () => {
        <h5><FontAwesomeIcon icon={faCircleCheck} style={{margin:'0px 10px',color:'#dbb407'}}/>Industrial Emergency Lights</h5>
        <h5><FontAwesomeIcon icon={faCircleCheck} style={{margin:'0px 10px',color:'#dbb407'}}/>Fire Hydrant Accessories</h5>
        <h5><FontAwesomeIcon icon={faCircleCheck} style={{margin:'0px 10px',color:'#dbb407'}}/>Worker Safety Footwear</h5>
-       <Link to={'/ContactUs'} ><Button variant="warning"  className= 'ms-md-5 mt-4'>Contact Now</Button></Link>
+       <Link to={'mailto:support@bytone.in'} ><Button variant="warning"  className= 'ms-md-5 mt-4'>Contact Now</Button></Link>
        </Col>
        {/* <Col lg={6} className="mt-md-5" xs={8}>
            <Image className='h-50 w-75 mt-5' src={require('../../../Assests/Images/AboutSecondImg3.jpeg')}/>

@@ -86,18 +86,17 @@ body{
 }
 .HomeFifthLeftComp{
   background-image: url('./Assests/Images/service_bg.jpg');
-
   width:100%;
 }
 
 #HomeFifthCardComp{
    width: 12rem;
-   height: 160px;
+   height: 165px;
    margin: 10px ;
 }
 #HomeFifthCardComp2{
    width: 12rem;
-    height: 160px; 
+    height: 165px; 
     margin: 10px;
 }
 #HomeFifthImage{
