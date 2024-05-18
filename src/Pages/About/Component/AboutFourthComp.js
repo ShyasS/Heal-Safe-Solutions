@@ -82,7 +82,7 @@ const AboutFourthComp = () => {
                         </Card>
                         
                        
-                        <Card id="CarddSize" style={{borderRadius:'20px',padding:'20px '}}>
+                        <Card id="CarddSize" style={{borderRadius:'20px',padding:'20px'}}>
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.3jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Call us
