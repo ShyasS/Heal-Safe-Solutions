@@ -58,7 +58,7 @@ const AboutFourthComp = () => {
                     <Row xs={12} lg={4} xl={3} xxl={3} md={12} className='my-2 d-flex justify-content-evenly gap-4' >
                         {/* <Row className="mx-auto">
                         <Col md={6} xs={12} lg={12} className='my-3 ' > */}
-                        <Card id="CarddSize" style={{borderRadius:'20px'}} >
+                        <Card id="CarddSize" style={{borderRadius:'20px',padding:'20px '}} >
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.1jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Company Details
@@ -82,7 +82,7 @@ const AboutFourthComp = () => {
                         </Card>
                         
                        
-                        <Card id="CarddSize" style={{borderRadius:'20px'}}>
+                        <Card id="CarddSize" style={{borderRadius:'20px',padding:'20px '}}>
                             <Card.Img variant="top" style={{ height: '45px', width: '50px' }} className='ms-3' src={require('../../../Assests/Images/AboutFourthImg.3jpg.png')} />
                             <Card.Body>
                                 <Card.Title>Call us
